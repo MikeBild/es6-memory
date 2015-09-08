@@ -1,0 +1,20 @@
+{
+  "name": "es6-memory",
+  "version": "1.0.0",
+  "authors": [
+    "Mike Bild <mike@mikebild.com>"
+  ],
+  "description": "A simple Memory-Game.",
+  "main": "memory.min.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
