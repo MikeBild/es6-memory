@@ -9,7 +9,8 @@
   "jspm": {
     "directories": {},
     "dependencies": {
-      "less": "github:aaike/jspm-less-plugin@^0.0.5"
+      "clean-css": "npm:clean-css@^3.4.1",
+      "css": "github:systemjs/plugin-css@^0.1.16"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.22",

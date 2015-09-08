@@ -8,12 +8,12 @@
   width: 94px;
   height: 94px;
   margin: 2px;
-  border: 1px solid gray;        
-  border-radius: 5px;        
+  border: 1px solid gray;
+  border-radius: 5px;
   background-color: gray;
   transition: transform 0.3s, background-color 0.3s;
   transform-style: preserve-3d;
-  transform: rotateY(0deg);        
+  transform: rotateY(0deg);
 
   line-height: 94px;
   text-align: center;
@@ -31,7 +31,7 @@
   transform: rotateY(180deg);
 }
 
-.Memory-tile--right {        
+.Memory-tile--right {
   background-color: green;
   border: 1px solid green;
   transition: background-color 0.3s;
