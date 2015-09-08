@@ -1,0 +1,49 @@
+.Memory {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+.Memory-tile {
+  width: 94px;
+  height: 94px;
+  margin: 2px;
+  border: 1px solid gray;        
+  border-radius: 5px;        
+  background-color: gray;
+  transition: transform 0.3s, background-color 0.3s;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);        
+
+  line-height: 94px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-family: Verdana;
+  font-size: 20px;
+}
+
+.Memory-tile--wrong {
+  background-color: red;
+  border: 1px solid red;
+  transition: transform 0.3s, background-color 0.3s;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg);
+}
+
+.Memory-tile--right {        
+  background-color: green;
+  border: 1px solid green;
+  transition: background-color 0.3s;
+}
+
+.Memory-tile--won {
+  margin: auto auto;
+  padding-top: 160px;
+  border-radius: 5px;
+  height: 240px;
+  width: 400px;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+}
