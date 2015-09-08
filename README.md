@@ -11,3 +11,9 @@ jspm install
 ```
 jspm-server
 ```
+
+##Bundle all
+
+```
+node build
+```
